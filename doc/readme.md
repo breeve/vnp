@@ -33,7 +33,7 @@ test: 测试用例
 
 ```shell
 整体设计
-manager，controller，dataplane，mk，schema。
+manager，controller，dataplane，schema。
 
 .1 manager: 管理面，业务对接，提供北向api
 
@@ -41,7 +41,5 @@ manager，controller，dataplane，mk，schema。
 
 .3 dataplane: 转发面，转发
 
-.4 mk: makefile 工具集
-
-.5 schema: 提供统一数据格式描述
+.4 schema: 提供统一数据格式描述
 ```
