@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dataplane.dir/device/device.c.o"
   "CMakeFiles/dataplane.dir/init/main.c.o"
+  "CMakeFiles/dataplane.dir/vswitch/vswitch.c.o"
   "dataplane"
   "dataplane.pdb"
 )

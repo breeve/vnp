@@ -5,16 +5,21 @@ set(CMAKE_C_STANDARD 99)
 set(CMAKE_INSTALL_RPATH ${PROJECT_SOURCE_DIR}/dev/lib)
 
 set(DEVICE_SRC
-        ./device/device.c
-        )
+    ./device/device.c
+)
+
+set(VSWITCH_SRC
+    ./vswitch/vswitch.c
+)
 
 set(INIT_SRC
-        ./init/main.c
+    ./init/main.c
 )
 
 set(DATAPLANE_SRC
-        ${DEVICE_SRC}
-        ${INIT_SRC}
+    ${DEVICE_SRC}
+    ${VSWITCH_SRC}
+    ${INIT_SRC}
 )
 
 include_directories(

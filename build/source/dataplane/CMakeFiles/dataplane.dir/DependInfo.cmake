@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/breeve/Desktop/笔记/src/sdn/source/dataplane/device/device.c" "/Users/breeve/Desktop/笔记/src/sdn/build/source/dataplane/CMakeFiles/dataplane.dir/device/device.c.o"
   "/Users/breeve/Desktop/笔记/src/sdn/source/dataplane/init/main.c" "/Users/breeve/Desktop/笔记/src/sdn/build/source/dataplane/CMakeFiles/dataplane.dir/init/main.c.o"
+  "/Users/breeve/Desktop/笔记/src/sdn/source/dataplane/vswitch/vswitch.c" "/Users/breeve/Desktop/笔记/src/sdn/build/source/dataplane/CMakeFiles/dataplane.dir/vswitch/vswitch.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

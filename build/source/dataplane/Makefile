@@ -225,6 +225,33 @@ init/main.c.s:
 	cd /Users/breeve/Desktop/笔记/src/sdn/build && $(MAKE) -f source/dataplane/CMakeFiles/dataplane.dir/build.make source/dataplane/CMakeFiles/dataplane.dir/init/main.c.s
 .PHONY : init/main.c.s
 
+vswitch/vswitch.o: vswitch/vswitch.c.o
+
+.PHONY : vswitch/vswitch.o
+
+# target to build an object file
+vswitch/vswitch.c.o:
+	cd /Users/breeve/Desktop/笔记/src/sdn/build && $(MAKE) -f source/dataplane/CMakeFiles/dataplane.dir/build.make source/dataplane/CMakeFiles/dataplane.dir/vswitch/vswitch.c.o
+.PHONY : vswitch/vswitch.c.o
+
+vswitch/vswitch.i: vswitch/vswitch.c.i
+
+.PHONY : vswitch/vswitch.i
+
+# target to preprocess a source file
+vswitch/vswitch.c.i:
+	cd /Users/breeve/Desktop/笔记/src/sdn/build && $(MAKE) -f source/dataplane/CMakeFiles/dataplane.dir/build.make source/dataplane/CMakeFiles/dataplane.dir/vswitch/vswitch.c.i
+.PHONY : vswitch/vswitch.c.i
+
+vswitch/vswitch.s: vswitch/vswitch.c.s
+
+.PHONY : vswitch/vswitch.s
+
+# target to generate assembly for a file
+vswitch/vswitch.c.s:
+	cd /Users/breeve/Desktop/笔记/src/sdn/build && $(MAKE) -f source/dataplane/CMakeFiles/dataplane.dir/build.make source/dataplane/CMakeFiles/dataplane.dir/vswitch/vswitch.c.s
+.PHONY : vswitch/vswitch.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -244,6 +271,9 @@ help:
 	@echo "... init/main.o"
 	@echo "... init/main.i"
 	@echo "... init/main.s"
+	@echo "... vswitch/vswitch.o"
+	@echo "... vswitch/vswitch.i"
+	@echo "... vswitch/vswitch.s"
 .PHONY : help
 
 
