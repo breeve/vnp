@@ -30,7 +30,7 @@ vector转发
 
 # 转发分析
 
-![流量分析](https://raw.githubusercontent.com/breeve/sdn/master/doc/resource/流量分析.jpg)
+![流量分析](https://github.com/breeve/sdn/blob/master/doc/resource/%E6%B5%81%E9%87%8F%E5%88%86%E6%9E%90.jpg)
 
 
 
