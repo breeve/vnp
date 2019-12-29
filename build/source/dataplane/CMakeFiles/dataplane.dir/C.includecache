@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../dev/include/base/dhash.h
+
+../source/dataplane/include/device.h
+
+/Users/breeve/Desktop/笔记/src/sdn/source/dataplane/device/device.c
+stdio.h
+-
+device.h
+/Users/breeve/Desktop/笔记/src/sdn/source/dataplane/device/device.h
+
+/Users/breeve/Desktop/笔记/src/sdn/source/dataplane/init/main.c
+stdio.h
+-
+device.h
+/Users/breeve/Desktop/笔记/src/sdn/source/dataplane/init/device.h
+base/dhash.h
+/Users/breeve/Desktop/笔记/src/sdn/source/dataplane/init/base/dhash.h
+
