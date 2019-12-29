@@ -1,7 +1,9 @@
-cmake_minimum_required(VERSION 3.16)
+cmake_minimum_required(VERSION 3.15)
+project(sdn_clion C)
 
-# set the project name
-project(sdn)
+set(CMAKE_C_STANDARD 99)
 
-# add sub directory
-add_subdirectory(source)
+add_subdirectory(source/lib)
+
+
+add_subdirectory(source/dataplane)
