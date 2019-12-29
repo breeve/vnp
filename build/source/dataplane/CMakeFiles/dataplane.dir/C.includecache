@@ -8,6 +8,16 @@
 
 ../source/dataplane/include/device.h
 
+../source/lib/libbase/include/base/dhash.h
+
+../source/lib/libbase/include/base/log.h
+
+/Users/breeve/Desktop/笔记/src/sdn/source/dataplane/device/device.c
+stdio.h
+-
+device.h
+/Users/breeve/Desktop/笔记/src/sdn/source/dataplane/device/device.h
+
 /Users/breeve/Desktop/笔记/src/sdn/source/dataplane/init/main.c
 stdio.h
 -

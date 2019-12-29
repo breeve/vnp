@@ -5,5 +5,7 @@ source/dataplane/CMakeFiles/dataplane.dir/device/device.c.o: ../source/dataplane
 source/dataplane/CMakeFiles/dataplane.dir/device/device.c.o: ../source/dataplane/device/device.c
 
 source/dataplane/CMakeFiles/dataplane.dir/init/main.c.o: ../source/dataplane/include/device.h
+source/dataplane/CMakeFiles/dataplane.dir/init/main.c.o: ../source/lib/libbase/include/base/dhash.h
+source/dataplane/CMakeFiles/dataplane.dir/init/main.c.o: ../source/lib/libbase/include/base/log.h
 source/dataplane/CMakeFiles/dataplane.dir/init/main.c.o: ../source/dataplane/init/main.c
 

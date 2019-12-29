@@ -19,7 +19,7 @@ set(DATAPLANE_SRC
 
 include_directories(
         ./include
-        ${PROJECT_SOURCE_DIR}/dev/include
+        ${PROJECT_SOURCE_DIR}/source/lib/libbase/include
 )
 
 add_executable(dataplane ${DATAPLANE_SRC})
