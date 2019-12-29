@@ -16,15 +16,11 @@ string.h
 stdarg.h
 -
 
-/Users/breeve/Desktop/笔记/src/sdn/source/dataplane/device/device.c
+/Users/breeve/Desktop/笔记/src/sdn/source/dataplane/vswitch/vswitch.c
 stdio.h
 -
-string.h
--
-stdlib.h
--
-base/log.h
-/Users/breeve/Desktop/笔记/src/sdn/source/dataplane/device/base/log.h
 device.h
-/Users/breeve/Desktop/笔记/src/sdn/source/dataplane/device/device.h
+/Users/breeve/Desktop/笔记/src/sdn/source/dataplane/vswitch/device.h
+base/log.h
+/Users/breeve/Desktop/笔记/src/sdn/source/dataplane/vswitch/base/log.h
 

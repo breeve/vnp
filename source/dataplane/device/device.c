@@ -14,7 +14,7 @@ int device_init()
     return 0;
 }
 
-dp_device_t * device_create(DP_DEVICE_TYPE_T type, char *name)
+dp_device_t * device_create(dp_device_type_t type, char *name)
 {
     dp_device_t * device = (dp_device_t*)malloc(sizeof(dp_device_t));
     if (device == NULL) {
@@ -29,6 +29,7 @@ dp_device_t * device_create(DP_DEVICE_TYPE_T type, char *name)
         return NULL;
     }
     strncmp(device->name, name, strlen(name));
+    device->type = type;
 
     log_info("device", "%s create success", name);
 

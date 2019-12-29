@@ -17,15 +17,13 @@ int main() {
 		log_error("init", "device init error");
 		return -1;
 	}
-    
+
     /* vswitch init */
     ret = vswitch_init();
     if (ret != 0) {
         log_error("init", "vswitch init error");
         return -1;
     }
-
-    //dhash_create();
 
     while (1);
 
