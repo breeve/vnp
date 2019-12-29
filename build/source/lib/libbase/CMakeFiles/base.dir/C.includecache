@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-../source/lib/libbase/include/base/dhash.h
+../source/lib/libbase/include/base/log.h
 
-/Users/breeve/Desktop/笔记/src/sdn/source/lib/libbase/dhash/dhash.c
+/Users/breeve/Desktop/笔记/src/sdn/source/lib/libbase/log/log.c
 stdio.h
 -
-base/dhash.h
-/Users/breeve/Desktop/笔记/src/sdn/source/lib/libbase/dhash/base/dhash.h
+string.h
+-
+base/log.h
+/Users/breeve/Desktop/笔记/src/sdn/source/lib/libbase/log/base/log.h
 

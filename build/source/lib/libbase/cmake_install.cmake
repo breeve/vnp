@@ -55,13 +55,16 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Users/breeve/Desktop/笔记/src/sdn/dev/include/base/dhash.h")
+   "/Users/breeve/Desktop/笔记/src/sdn/dev/include/base/dhash.h;/Users/breeve/Desktop/笔记/src/sdn/dev/include/base/log.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/Users/breeve/Desktop/笔记/src/sdn/dev/include/base" TYPE FILE FILES "/Users/breeve/Desktop/笔记/src/sdn/source/lib/libbase/include/base/dhash.h")
+file(INSTALL DESTINATION "/Users/breeve/Desktop/笔记/src/sdn/dev/include/base" TYPE FILE FILES
+    "/Users/breeve/Desktop/笔记/src/sdn/source/lib/libbase/include/base/dhash.h"
+    "/Users/breeve/Desktop/笔记/src/sdn/source/lib/libbase/include/base/log.h"
+    )
 endif()
 

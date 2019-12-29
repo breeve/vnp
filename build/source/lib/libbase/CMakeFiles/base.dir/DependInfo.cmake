@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/breeve/Desktop/笔记/src/sdn/source/lib/libbase/dhash/dhash.c" "/Users/breeve/Desktop/笔记/src/sdn/build/source/lib/libbase/CMakeFiles/base.dir/dhash/dhash.c.o"
+  "/Users/breeve/Desktop/笔记/src/sdn/source/lib/libbase/log/log.c" "/Users/breeve/Desktop/笔记/src/sdn/build/source/lib/libbase/CMakeFiles/base.dir/log/log.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

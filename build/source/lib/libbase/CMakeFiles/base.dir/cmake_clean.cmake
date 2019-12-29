@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/base.dir/dhash/dhash.c.o"
+  "CMakeFiles/base.dir/log/log.c.o"
   "libbase.dylib"
   "libbase.pdb"
 )

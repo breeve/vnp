@@ -4,3 +4,6 @@
 source/lib/libbase/CMakeFiles/base.dir/dhash/dhash.c.o: ../source/lib/libbase/include/base/dhash.h
 source/lib/libbase/CMakeFiles/base.dir/dhash/dhash.c.o: ../source/lib/libbase/dhash/dhash.c
 
+source/lib/libbase/CMakeFiles/base.dir/log/log.c.o: ../source/lib/libbase/include/base/log.h
+source/lib/libbase/CMakeFiles/base.dir/log/log.c.o: ../source/lib/libbase/log/log.c
+

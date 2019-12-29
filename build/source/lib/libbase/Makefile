@@ -82,7 +82,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/Applications/CMake.app/Contents/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CMake.app/Contents/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -198,6 +198,33 @@ dhash/dhash.c.s:
 	cd /Users/breeve/Desktop/笔记/src/sdn/build && $(MAKE) -f source/lib/libbase/CMakeFiles/base.dir/build.make source/lib/libbase/CMakeFiles/base.dir/dhash/dhash.c.s
 .PHONY : dhash/dhash.c.s
 
+log/log.o: log/log.c.o
+
+.PHONY : log/log.o
+
+# target to build an object file
+log/log.c.o:
+	cd /Users/breeve/Desktop/笔记/src/sdn/build && $(MAKE) -f source/lib/libbase/CMakeFiles/base.dir/build.make source/lib/libbase/CMakeFiles/base.dir/log/log.c.o
+.PHONY : log/log.c.o
+
+log/log.i: log/log.c.i
+
+.PHONY : log/log.i
+
+# target to preprocess a source file
+log/log.c.i:
+	cd /Users/breeve/Desktop/笔记/src/sdn/build && $(MAKE) -f source/lib/libbase/CMakeFiles/base.dir/build.make source/lib/libbase/CMakeFiles/base.dir/log/log.c.i
+.PHONY : log/log.c.i
+
+log/log.s: log/log.c.s
+
+.PHONY : log/log.s
+
+# target to generate assembly for a file
+log/log.c.s:
+	cd /Users/breeve/Desktop/笔记/src/sdn/build && $(MAKE) -f source/lib/libbase/CMakeFiles/base.dir/build.make source/lib/libbase/CMakeFiles/base.dir/log/log.c.s
+.PHONY : log/log.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -214,6 +241,9 @@ help:
 	@echo "... dhash/dhash.o"
 	@echo "... dhash/dhash.i"
 	@echo "... dhash/dhash.s"
+	@echo "... log/log.o"
+	@echo "... log/log.i"
+	@echo "... log/log.s"
 .PHONY : help
 
 
