@@ -1,7 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
 
-set(LIB_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/dev)
-
 set(DHASH_SRC
         ./dhash/dhash.c
         )
