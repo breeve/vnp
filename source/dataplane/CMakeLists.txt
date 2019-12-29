@@ -12,6 +12,10 @@ set(VSWITCH_SRC
     ./vswitch/vswitch.c
 )
 
+set(FORWARD_SRC
+    ./forward/forward.c
+)
+
 set(INIT_SRC
     ./init/main.c
 )
@@ -19,6 +23,7 @@ set(INIT_SRC
 set(DATAPLANE_SRC
     ${DEVICE_SRC}
     ${VSWITCH_SRC}
+    ${FORWARD_SRC}
     ${INIT_SRC}
 )
 

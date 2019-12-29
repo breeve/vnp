@@ -5,6 +5,7 @@
 
 #include "device.h"
 #include "vswitch.h"
+#include "forward.h"
 
 int main() {
 	int ret = -1;
@@ -25,7 +26,11 @@ int main() {
         return -1;
     }
 
-    while (1);
+    while (1) {
+        sleep(1);
+
+        l2_forward();
+    }
 
     return 0;
 }
