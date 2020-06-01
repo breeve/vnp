@@ -1,5 +1,7 @@
-# 目录结构
-
-```shell
-
+```shell script
+mkdir build
+cd build
+cmake ../
+make
+make install
 ```
